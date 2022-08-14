@@ -6,4 +6,4 @@
 - Font Awesome
 
 ## PSD
-Daisy.psd file
+Cuda.psd file
