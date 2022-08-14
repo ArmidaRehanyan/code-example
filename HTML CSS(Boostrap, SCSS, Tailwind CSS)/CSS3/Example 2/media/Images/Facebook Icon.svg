@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" width="35" height="35">
+	<title>Facebook Icon</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #bdd1df } 
+		.shp1 { fill: #ffffff } 
+	</style>
+	<path id="base" class="shp0" d="M18 2C26.84 2 34 9.16 34 18C34 26.84 26.84 34 18 34C9.16 34 2 26.84 2 18C2 9.16 9.16 2 18 2Z" />
+	<path id="Facebook Icon" class="shp1" d="M20.98 10.94L19.33 10.94C19.33 10.94 16.01 10.69 16.01 14.18C16.01 14.93 16.01 15.99 16.01 15.99L14.02 15.99L14.02 18L16.01 18L15.98 26.01L19.01 26.01L19.01 18.03L20.75 18L21.38 15.99L18.98 15.99L18.98 13.93C18.98 13.93 18.96 13.01 20.03 13.01L20.97 13.01L20.98 10.94Z" />
+</svg>
