@@ -1,0 +1,8 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27" width="27" height="27">
+	<title>more</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #c7c9ce } 
+	</style>
+	<path id="more" class="shp0" d="M23.43 14.57L14.57 14.57L14.57 23.43C14.57 24.3 13.86 25 13 25C12.14 25 11.43 24.3 11.43 23.43L11.43 14.57L2.57 14.57C1.7 14.57 1 13.86 1 13C1 12.14 1.7 11.43 2.57 11.43L11.43 11.43L11.43 2.57C11.43 1.7 12.14 1 13 1C13.86 1 14.57 1.7 14.57 2.57L14.57 11.43L23.43 11.43C24.3 11.43 25 12.14 25 13C25 13.86 24.3 14.57 23.43 14.57Z" />
+</svg>
