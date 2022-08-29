@@ -1,0 +1,105 @@
+/* roboto-300 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../font/roboto-v27-latin/roboto-v27-latin-300.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../font/roboto-v27-latin/roboto-v27-latin-300.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/roboto-v27-latin/roboto-v27-latin-300.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../font/roboto-v27-latin/roboto-v27-latin-300.woff') format('woff'), /* Modern Browsers */
+    url('../font/roboto-v27-latin/roboto-v27-latin-300.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../font/roboto-v27-latin/roboto-v27-latin-300.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/roboto-v27-latin/roboto-v27-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../font/roboto-v27-latin/roboto-v27-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/roboto-v27-latin/roboto-v27-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../font/roboto-v27-latin/roboto-v27-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../font/roboto-v27-latin/roboto-v27-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../font/roboto-v27-latin/roboto-v27-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-500 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../font/roboto-v27-latin/roboto-v27-latin-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../font/roboto-v27-latin/roboto-v27-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/roboto-v27-latin/roboto-v27-latin-500.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../font/roboto-v27-latin/roboto-v27-latin-500.woff') format('woff'), /* Modern Browsers */
+    url('../font/roboto-v27-latin/roboto-v27-latin-500.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../font/roboto-v27-latin/roboto-v27-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-700 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../font/roboto-v27-latin/roboto-v27-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../font/roboto-v27-latin/roboto-v27-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/roboto-v27-latin/roboto-v27-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../font/roboto-v27-latin/roboto-v27-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../font/roboto-v27-latin/roboto-v27-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../font/roboto-v27-latin/roboto-v27-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+/* roboto-900 - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../font/roboto-v27-latin/roboto-v27-latin-900.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../font/roboto-v27-latin//roboto-v27-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/roboto-v27-latin/roboto-v27-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../font/roboto-v27-latin/roboto-v27-latin-900.woff') format('woff'), /* Modern Browsers */
+    url('../font/roboto-v27-latin/roboto-v27-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../font/roboto-v27-latin/roboto-v27-latin-900.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+
+/* overpass-regular - latin */
+@font-face {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/overpass-v5-latin/overpass-v5-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../font/overpass-v5-latin/overpass-v5-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/overpass-v5-latin/overpass-v5-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../font/overpass-v5-latin/overpass-v5-latin-regular.woff') format('woff'), /* Modern Browsers */
+    url('../font/overpass-v5-latin/overpass-v5-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../font/overpass-v5-latin/overpass-v5-latin-regular.svg#Overpass') format('svg'); /* Legacy iOS */
+}
+/* overpass-700 - latin */
+@font-face {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../font/overpass-v5-latin/overpass-v5-latin-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../font/overpass-v5-latin/overpass-v5-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/overpass-v5-latin/overpass-v5-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../font/overpass-v5-latin/overpass-v5-latin-700.woff') format('woff'), /* Modern Browsers */
+    url('../font/overpass-v5-latin/overpass-v5-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../font/overpass-v5-latin/overpass-v5-latin-700.svg#Overpass') format('svg'); /* Legacy iOS */
+}
+/* overpass-800 - latin */
+@font-face {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../font/overpass-v5-latin/overpass-v5-latin-800.eot'); /* IE9 Compat Modes */
+    src: local(''),
+    url('../font/overpass-v5-latin/overpass-v5-latin-800.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../font/overpass-v5-latin/overpass-v5-latin-800.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../font/overpass-v5-latin/overpass-v5-latin-800.woff') format('woff'), /* Modern Browsers */
+    url('../font/overpass-v5-latin/overpass-v5-latin-800.ttf') format('truetype'), /* Safari, Android, iOS */
+    url('../font/overpass-v5-latin/overpass-v5-latin-800.svg#Overpass') format('svg'); /* Legacy iOS */
+}
