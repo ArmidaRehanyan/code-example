@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <title>Elevator</title>
+</head>
+
+<body>
+
+    <div id="elevator">
+        <div class="contain">
+            <div class="checkCount">
+                <input type="number" class="floor-count count" required max="100" min="1"
+                    placeholder="Type floor count">
+                <input type="number" class="elevator-count count" required max="10" min="1"
+                    placeholder="Type elevator count">
+            </div>
+
+            <div class="countBtn">
+                <button class="draw-elevator">Create</button>
+            </div>
+
+            <span class="error-message">The Building can have got maximum a 100 floors and maximum 10 elevators</span>
+        </div>
+
+        <svg id="q1" class="elevator-container">
+
+        </svg>
+
+        <div class="liftResult">
+            <p id="result"></p>
+            <div>
+                <form action="#" id="selectForm">
+                    <label for="select-floor" id="selectFloorText">Select Floor</label>
+                    <select name="select-floor" id="selectFloor">
+
+                    </select>
+
+                    <button type="button" id="goBtn">Go</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="assets/JS/drawElevator.js"></script>
+    <script src="style.js"></script>
+
+</body>
+
+</html>

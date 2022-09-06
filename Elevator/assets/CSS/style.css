@@ -1,0 +1,119 @@
+#elevator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+svg{
+    background-color: white;
+    border: 1px solid black;
+}
+#q1{
+    margin-top: 40px;
+}
+#line{
+    stroke: black;
+    stroke-width: 0.5;
+}
+#rect{
+    stroke: #1d1919;
+    fill: #786969;
+}
+.vertical_line{
+    stroke: #4e4c4c;
+}
+#horizontal_line{
+    stroke: #343030;
+}
+.lift{
+    /*stroke: #1d1c1c;*/
+    fill: transparent;
+}
+.liftBtn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: white;
+    background-color: #665555
+}
+#moveDownBtn{
+    margin-left: 20px;
+}
+#selectFloor{
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #5c5353;
+    border: 1px solid black;
+}
+#selectFloorText{
+    color: #302d2d;
+    font-weight: 700;
+    font-size: 18px;
+}
+#goBtn{
+    width: 36px;
+    height: 36px;
+    color: white;
+    outline: none;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: #665555;
+}
+.count{
+    width: 140px;
+    height: 24px;
+    color: black;
+    outline: none;
+    border: 1px solid #786969;
+}
+input::placeholder{
+    color: black;
+    text-align: center;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.countBtn{
+    margin-top: 10px;
+}
+.draw-elevator{
+    width: 128px;
+    height: 24px;
+    color: white;
+    outline: none;
+    border-radius: 15px;
+    border: 1px solid #786969;
+    background-color: #786969;
+}
+.liftResult p{
+    background: lime;
+    border: 11px solid #786969;
+    border-radius: 8px;
+    padding: 7px 17px;
+    font-family: Space Mono, monospace;
+    height: 80px;
+    overflow-y: hidden;
+    color: #786969;
+    line-height: 1.45;
+    box-shadow: inset 0px 0px 0px 2px #786969, 0px 0px 0px 2px #786969;
+    margin-bottom: 10px;
+    width: 200px;
+    margin-top: 40px;
+}
+#result{
+    display: flex;
+    color: black;
+    font-weight: 900;
+    margin-top: 28px;
+    justify-content: center;
+}
+.error-message {
+    color: red;
+    display: none;
+    font-size: small;
+    padding-top: 10px;
+}
