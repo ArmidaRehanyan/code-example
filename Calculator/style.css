@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0
+}
+body {
+    background-color: #ededed;
+}
+.calculator{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    justify-content: center;
+}
+.container{
+    width: 600px;
+    height: 350px;
+    border-radius: 18px;
+    background-color: white;
+    border: 1px solid #dcdcd6;
+}
+.content{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.contTitle{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+.titleName{
+    font-size: 23px;
+    font-weight: 400;
+}
+.cost{
+    font-size: 24px;
+    font-weight: 700
+}
+.box{
+    padding-top: 20px;
+}
+.values{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.inputRange{
+    width: 100%;
+    height: 5px;
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 3px;
+    background: #cbcbcb;
+}
+.inputRange::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #fff;
+    border: 3px solid #48b9f2;
+}
+.calculate{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+.calculateTitle{
+    font-weight: 800;
+    font-size: 19px;
+}
+.price,
+.percent,
+.giveBack{
+    padding-top: 10px;
+    font-size: 25px;
+}
+.discount{
+    padding-top: 40px;
+}
+.discountSpan{
+    color: #00a2db;
+    font-weight: 700;
+    font-size: 20px;
+}
+.discountText{
+    font-size: 18px;
+    font-weight: 700;
+}
