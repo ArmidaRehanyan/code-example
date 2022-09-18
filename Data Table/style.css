@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 25px;
+    max-width: 1250px;
+    margin: 15px auto 0;
+    border-radius: 15px;
+    box-shadow: 0 0 20px 10px darkgrey;
+}
+
+/* Entries and Search*/
+.table__entries_search {
+    display: flex;
+    margin: 0 0 25px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+select {
+    border: none;
+    outline: none;
+    padding: 2px 8px;
+    border-radius: 3px;
+    background-color: transparent;
+    box-shadow: 0 0 10px 0 darkgrey;
+}
+
+
+.table__search > input {
+    padding: 5px;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+
+/* Table */
+
+table {
+    min-width: 100%;
+    letter-spacing: 1px;
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+}
+
+thead {
+    color: #fff;
+    background-color: #3f87a6;
+}
+
+tbody {
+    background-color: #e4f0f5;
+}
+
+tfoot {
+    padding: 25px;
+}
+
+
+tbody tr:nth-child(even) td{
+    background: #bec1c3;
+}
+
+
+td,th{
+    padding: 5px 10px;
+    border: 1px solid #daddde;
+}
+
+th {
+    cursor: pointer;
+}
+
+/*Loader*/
+
+.loader {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 12px solid #444444;
+    width: 70px;
+    height: 70px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Pagination */
+
+.buttons__block {
+    display: flex;
+    max-width: 300px;
+    margin: 10px auto 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #3f87a6;
+    cursor: pointer
+}
+
+.btn:disabled,
+.btn[disabled] {
+    cursor: not-allowed;
+}
+
+.btn#active {
+    background-color: #bebebe;
+}
