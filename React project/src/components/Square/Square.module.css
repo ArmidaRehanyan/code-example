@@ -1,0 +1,30 @@
+.title{
+    font-weight: 700;
+    color:  #2b6777;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+}
+.squareImg{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.imgSquare{
+    width: 1400px;
+    height: 500px;
+}
+.squareHistory{
+    line-height: 22px;
+    padding: 40px 70px 0 70px;
+    color: #054658;
+}
+.squareMap{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0 40px 0;
+}
+.map{
+    width: 1400px;
+    height: 400px;
+}

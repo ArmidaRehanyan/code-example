@@ -1,0 +1,93 @@
+.container{
+    max-width: 1425px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+}
+.cafeTitle{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #2b6777;
+    padding-top: 70px;
+}
+.cafes{
+    width: 100%;
+    display: flex;
+    max-width: 884px;
+    flex-direction: column;
+    border: 2px solid #2b6777;
+    margin-top: 45px;
+}
+.cafe{
+    padding: 15px;
+}
+.cafeCont{
+    display: flex;
+}
+.cafeImgBlock {
+    flex: 0 0 40%;
+    max-width: 40%;
+}
+.cafeImg{
+    width: 275px;
+    height: 183px;
+}
+.cafeData{
+    flex: 0 0 60%;
+    max-width: 60%;
+    margin-left: 10px;
+}
+.cafeName{
+    font-size: 25px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #52ab98;
+    padding-top: 10px;
+}
+.cafeAddress{
+    padding-top: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 295px;
+    color: #054658;
+}
+.cafePhone{
+    padding-top: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 295px;
+    color: #054658
+}
+.phoneSpan,
+.hoursSpan{
+    padding-left: 12px;
+}
+.cafeHours{
+    padding-top: 8px;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: 295px;
+    color: #054658
+}
+.cafeButton{
+    padding-top: 15px;
+}
+.cafeBtn{
+    color: white;
+    font-size: 16px;
+    background-color: #52ab98;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 20px;
+    text-decoration: none;
+
+}
+.cafeBtn:hover{
+    background-color: #5dbfaa;
+    color: white;
+}
+

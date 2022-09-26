@@ -1,0 +1,21 @@
+.nav{
+    /*grid-area: n;*/
+    width: 250px;
+    position: fixed;
+    min-height: 100vh;
+    background-color: #2b6777;
+    font-size: 22px;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navDiv{
+    margin-top: 35px;
+}
+.activeNav{
+    color: red;
+}

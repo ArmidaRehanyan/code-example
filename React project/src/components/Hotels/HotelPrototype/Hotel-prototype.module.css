@@ -1,0 +1,143 @@
+.hotelCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 45px 30px 40px;
+}
+.hotelName {
+    font-size: 32px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #2b6777;
+}
+.hotelSlider {
+    margin-top: 30px;
+}
+.dealsCont {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.hotelDeals {
+    width: 910px;
+    border: 2px solid #2b6777;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 30px;
+}
+.dealsTitle {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #52ab98;
+    padding-top: 8px;
+}
+.dealsCount {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8px;
+}
+.checkBtn {
+    background-color: #52ab98 !important;
+    border-color: #52ab98 !important;
+    margin-top: 8px;
+}
+.checkCount {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+.item {
+    display: flex;
+    justify-content: space-around;
+}
+.itemName {
+    font-size: 21px;
+}
+.itemCount {
+    padding-top: 8px;
+}
+.itemName{
+    padding-top: 8px;
+}
+.calendar {
+    display: flex;
+    margin-top: 20px;
+}
+.checkPrice {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.priceBtn {
+    width: 133px;
+    height: 41px;
+    border: none;
+    color: white;
+    background-color: #52ab98;
+}
+.priceBtn:hover {
+    background-color: #5dbfaa;
+}
+.reviews {
+    margin-top: 45px;
+    max-width: 710px;
+}
+.reviewTitle {
+    font-size: 32px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #2b6777;
+    text-align: center;
+}
+.reviewItems {
+    padding-top: 30px;
+}
+.reviewItem {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.reviewName{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    line-height: 28px;
+    color: #52ab98;
+    font-weight: 600;
+}
+.hotelAbout {
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutTitle {
+    font-size: 32px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #2b6777;
+}
+.aboutText {
+    padding-top: 35px;
+    color: #054658;
+}
+.hotelMapCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.hotelMapTitle {
+    font-size: 32px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #2b6777;
+}
+.map {
+    padding-top: 30px;
+}
+.hotelMap {
+    width: 700px;
+    height: 530px;
+}

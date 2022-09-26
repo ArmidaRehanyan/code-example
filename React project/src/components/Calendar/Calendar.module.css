@@ -1,0 +1,13 @@
+.calendar{
+    display: flex;
+    justify-content: space-between;
+}
+.dataTitle{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #52ab98;
+}
+.endData{
+    margin-left: 10px;
+}

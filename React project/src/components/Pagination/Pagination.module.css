@@ -1,0 +1,8 @@
+.cafe_component {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*padding: 10px 0 5px 0;*/
+    margin-bottom: 20px;
+}
