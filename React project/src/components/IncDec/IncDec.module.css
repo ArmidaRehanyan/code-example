@@ -1,0 +1,14 @@
+.incBtn,
+.decBtn{
+    width: 30px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #52ab98;
+}
+.decBtn{
+    margin-left: 20px;
+}
+.countLabel{
+    margin-left: 20px;
+}

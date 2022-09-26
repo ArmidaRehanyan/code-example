@@ -1,0 +1,29 @@
+.cafeCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0 40px 0;
+}
+.cafeName {
+    font-size: 32px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #2b6777;
+}
+.accordion{
+    padding-top: 40px;
+    max-width: 750px;
+}
+.accordion__heading{
+    width: 750px;
+}
+.cafeLogo{
+    margin-top: 47px;
+}
+.menu{
+    font-size: 32px;
+    line-height: 28px;
+    font-weight: 600;
+    color: #2b6777;
+    padding-top: 50px;
+}

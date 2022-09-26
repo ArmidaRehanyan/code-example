@@ -1,0 +1,21 @@
+.header{
+    /*grid-area: h;*/
+    top: 0;
+    z-index: 2;
+    height: 60px;
+    flex-basis: 100%;
+    position: sticky;
+    background-color: #52ab98;
+}
+header img{
+    height: 100%;
+    display: block;
+    padding-left: 15px;
+}
+.nav__link{
+    color: white;
+    text-decoration: none;
+}
+.nav__link:hover{
+    color: #52ab98;
+}
