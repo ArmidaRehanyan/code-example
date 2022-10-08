@@ -1,0 +1,40 @@
+html {
+    background: #474747;
+}
+
+/* Basic */
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SVG */
+
+.svg-arrow {
+    width: 40px;
+    height: 40px;
+    fill: #fff;
+    cursor: pointer;
+
+}
+
+/* Carrousel */
+
+.carrousel {
+    width: 600px;
+    height: 300px;
+}
+
+
+.carrousel-item {
+    width: 600px;
+    height: 300px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: opacity 1s;
+}
