@@ -1,4 +1,4 @@
-# Exercise 12
+# Exercise 1
 
 ## Calculating with Functions
 

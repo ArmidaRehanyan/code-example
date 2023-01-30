@@ -1,4 +1,4 @@
-# Exercise 7
+# Exercise 3
 
 ## Stop gninnipS My sdroW!
 

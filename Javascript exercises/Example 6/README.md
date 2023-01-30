@@ -1,4 +1,4 @@
-# Exercise 9
+# Exercise 6
 
 ## Snail
 

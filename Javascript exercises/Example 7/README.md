@@ -1,4 +1,4 @@
-# Exercise 4
+# Exercise 7
 
 ## Vowel Count
 
